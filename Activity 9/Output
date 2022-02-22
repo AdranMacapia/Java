@@ -1,0 +1,99 @@
+run:
+-------------------------------------------------------------------------------------------------------------
+                                         TAGUIG CITY Payroll System 101
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+|Emplyee|    Employee Name     |    Position     | Department | rate   | Monthly | Allowances| Official     |
+|Number |                      |                 |            | /hour  | Salary  |           | time= 8hours |
+|       |                      |                 |            |        |         |           |Overtime      |
+|       |                      |                 |            |        |         |           |exceeding     | 
+|       |                      |                 |            |        |         |           |1 hour=P350   |
+-------------------------------------------------------------------------------------------------------------
+| 1001  | Jose Rizal A         | Manager         |     IT     |  520   | 99,840  |  4,500    |              |
+| 1002  | Andres Bonifacio C   | Asst. Manager   |     IT     |  450   | 86,400  |  2,500    |              |
+| 1003  | Lexi Lore S          | Secretary       |     IT     |  350   | 67,200  |  1,500    |              |
+| 1004  | Ivana Alawi S        | Asst. Secretary |     IT     |  300   | 57,600  |  1,000    |              |
+-------------------------------------------------------------------------------------------------------------
+Enter Employee's Data 
+
+Employee Number   : 1001
+Name              : Jose Rizal A
+Position          : Manager
+Department        : IT
+Status            : Single
+Monthly Salary    : P99840.0
+Allowances        : P4500.0
+Overtime          : 5
+OvertimePay       : P1750.0
+TOTAL INCOME      : P106090.0
+------------------------------------------------------
+                    T  I   M   E                   
+------------------------------------------------------
+Number of Hours Works   : 192.0
+Late(Hr)                : 2
+Late(Min)               : 2
+Absences                : 2
+Undertime               : 4
+Total Hours             : 158.0
+Rate                    : P520.0
+OVERALL INCOME          : P88060.0
+------------------------------------------------------
+                 D E D U C T I O N S                   
+------------------------------------------------------
+Specify Tax Bracket 
+(1)Single (2)Married (3)Widowed
+
+Enter your choice: 1
+TAX              : P17612.0
+SSS              : P6164.200000000001
+PAGIBIG          : P880.6
+PhilHealth       : P880.6
+
+DEDUCTIONS       : P25537.399999999998
+
+-------------------------------------------------
+                  Payroll Slip
+-------------------------------------------------
+
+    Name                 : Jose Rizal A
+    Position             : Manager
+    Department           : IT
+    Status               : Single
+    Monthly Salary       : P99840.0
+    Allowances           : P4500.0
+    Overtime             : P1750.0
+    Total Income         : P106090.0
+
+----------------------Time-----------------------
+
+    Number of Hours Works: 192.0
+    Late(hr)             : P300.0
+    Late(min)            : P50.0
+    Absences             : 16.0
+    Undertime            : 16
+    Total Hours          : 158.0
+    Rate                 : P520.0
+    Overall Income       : P88060.0
+
+-------------------Deductions--------------------
+
+    TAX                  : P17612.0
+    SSS                  : P6164.200000000001
+    Pagibig              : P880.6
+    PhilHealth           : P880.6
+    Total Deductions     : P25537.399999999998
+
+---------------------Others----------------------
+
+    House Loan           : P5000
+    Car Loan             : P7000
+    Total Loan           : P12000.0
+
+-------------------------------------------------
+
+  TOTAL GROSS PAY        : P62522.600000000006
+
+  TOTAL NET PAY          : P50522.600000000006
+
+ You want to Select Again[Y/N]: n
+BUILD SUCCESSFUL (total time: 21 seconds)

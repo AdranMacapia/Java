@@ -1,0 +1,428 @@
+run:
+
+
+-------------------------------------------------------------------------------------------------------------
+                                         TAGUIG CITY Payroll System 101
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+|Emplyee|    Employee Name     |    Position     | Department | rate   | Monthly | Allowances| Official     |
+|Number |                      |                 |            | /hour  | Salary  |           | time= 8hours |
+|       |                      |                 |            |        |         |           |Overtime      |
+|       |                      |                 |            |        |         |           |exceeding     | 
+|       |                      |                 |            |        |         |           |1 hour=P350   |
+-------------------------------------------------------------------------------------------------------------
+| 1001  | Jose Rizal A         | Manager         |     IT     |  520   | 99,840  |  4,500    |              |
+| 1002  | Andres Bonifacio C   | Asst. Manager   |     IT     |  450   | 86,400  |  2,500    |              |
+| 1003  | Lexi Lore S          | Secretary       |     IT     |  350   | 67,200  |  1,500    |              |
+| 1004  | Ivana Alawi S        | Asst. Secretary |     IT     |  300   | 57,600  |  1,000    |              |
+-------------------------------------------------------------------------------------------------------------
+Enter Employee's Data 
+
+Employee Number   : 1001
+Name              : Jose Rizal A
+Position          : Manager
+Department        : IT
+Status            : Single
+Monthly Salary    : P99840.0
+Allowances        : P4500.0
+Overtime          : 6
+OvertimePay       : P2100.0
+TOTAL INCOME      : P106440.0
+------------------------------------------------------
+                    T  I   M   E                   
+------------------------------------------------------
+Number of Hours Works   : 192.0
+Late(Hours)             : 3
+Late(Minutes)           : 30
+Absences                : 2
+Undertime               : 2
+Total Hours             : 165.0
+Rate                    : P520.0
+OVERALL INCOME          : P91900.0
+------------------------------------------------------
+                 D E D U C T I O N S                   
+------------------------------------------------------
+Specify Tax Bracket 
+(1)Single (2)Married (3)Widowed
+
+Enter your choice: 0
+You select wrong number, please enter the number you choose[1,2,3 only!]: 1
+
+TAX              : P18380.0
+SSS              : P6433.000000000001
+PAGIBIG          : P919.0
+PhilHealth       : P919.0
+
+DEDUCTIONS       : P26651.0
+
+-------------------------------------------------
+                  Payroll Slip
+-------------------------------------------------
+
+    Name                 : Jose Rizal A
+    Position             : Manager
+    Department           : IT
+    Status               : Single
+    Monthly Salary       : P99840.0
+    Allowances           : P4500.0
+    Overtime             : P2100.0
+    Total Income         : P106440.0
+
+----------------------Time-----------------------
+
+    Number of Hours Works: 192.0
+    Late(hr)             : P450.0
+    Late(min)            : P50.0
+    Absences             : 16.0
+    Undertime            : 8
+    Total Hours          : 165.0
+    Rate                 : P520.0
+    Overall Income       : P91900.0
+
+-------------------Deductions--------------------
+
+    TAX                  : P18380.0
+    SSS                  : P6433.000000000001
+    Pagibig              : P919.0
+    PhilHealth           : P919.0
+    Total Deductions     : P26651.0
+
+---------------------Others----------------------
+
+    House Loan           : P5000
+    Car Loan             : P2000
+    Total Loan           : P7000.0
+
+-------------------------------------------------
+
+  TOTAL GROSS PAY        : P65249.0
+
+  TOTAL NET PAY          : P58249.0
+
+ Do You want to Select Again[Y/N]: Y
+
+
+-------------------------------------------------------------------------------------------------------------
+                                         TAGUIG CITY Payroll System 101
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+|Emplyee|    Employee Name     |    Position     | Department | rate   | Monthly | Allowances| Official     |
+|Number |                      |                 |            | /hour  | Salary  |           | time= 8hours |
+|       |                      |                 |            |        |         |           |Overtime      |
+|       |                      |                 |            |        |         |           |exceeding     | 
+|       |                      |                 |            |        |         |           |1 hour=P350   |
+-------------------------------------------------------------------------------------------------------------
+| 1001  | Jose Rizal A         | Manager         |     IT     |  520   | 99,840  |  4,500    |              |
+| 1002  | Andres Bonifacio C   | Asst. Manager   |     IT     |  450   | 86,400  |  2,500    |              |
+| 1003  | Lexi Lore S          | Secretary       |     IT     |  350   | 67,200  |  1,500    |              |
+| 1004  | Ivana Alawi S        | Asst. Secretary |     IT     |  300   | 57,600  |  1,000    |              |
+-------------------------------------------------------------------------------------------------------------
+Enter Employee's Data 
+
+Employee Number   : 1002
+Name              : Andres Bonifacio C
+Position          : Assistant Manager
+Department        : IT
+Status            : Single
+Monthly Salary    : P86400.0
+Allowances        : P2500.0
+Overtime          : 4
+OvertimePay       : P1400.0
+TOTAL INCOME      : P90300.0
+------------------------------------------------------
+                    T  I   M   E                   
+------------------------------------------------------
+Number of Hours Works   : 192.0
+Late(Hours)             : 10
+Late(Minutes)           : 0
+Absences                : 5
+Undertime               : 1
+Total Hours             : 138.0
+Rate                    : P450.0
+OVERALL INCOME          : P64500.0
+------------------------------------------------------
+                 D E D U C T I O N S                   
+------------------------------------------------------
+Specify Tax Bracket 
+(1)Single (2)Married (3)Widowed
+
+Enter your choice: 4
+You select wrong number, please enter the number you choose[1,2,3 only!]: 1
+
+TAX              : P9675.0
+SSS              : P3225.0
+PAGIBIG          : P645.0
+PhilHealth       : P645.0
+
+DEDUCTIONS       : P14190.0
+
+-------------------------------------------------
+                  Payroll Slip
+-------------------------------------------------
+
+    Name                 : Andres Bonifacio C
+    Position             : Assistant Manager
+    Department           : IT
+    Status               : Single
+    Monthly Salary       : P86400.0
+    Allowances           : P2500.0
+    Overtime             : P1400.0
+    Total Income         : P90300.0
+
+----------------------Time-----------------------
+
+    Number of Hours Works: 192.0
+    Late(hr)             : P1500.0
+    Late(min)            : P0.0
+    Absences             : 40.0
+    Undertime            : 4
+    Total Hours          : 138.0
+    Rate                 : P450.0
+    Overall Income       : P64500.0
+
+-------------------Deductions--------------------
+
+    TAX                  : P9675.0
+    SSS                  : P3225.0
+    Pagibig              : P645.0
+    PhilHealth           : P645.0
+    Total Deductions     : P14190.0
+
+---------------------Others----------------------
+
+    House Loan           : P3000
+    Car Loan             : P10000
+    Total Loan           : P13000.0
+
+-------------------------------------------------
+
+  TOTAL GROSS PAY       : P76110.0
+
+  TOTAL NET PAY         : P63110.0
+
+ Do You want to Select Again[Y/N]: Y
+
+
+-------------------------------------------------------------------------------------------------------------
+                                         TAGUIG CITY Payroll System 101
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+|Emplyee|    Employee Name     |    Position     | Department | rate   | Monthly | Allowances| Official     |
+|Number |                      |                 |            | /hour  | Salary  |           | time= 8hours |
+|       |                      |                 |            |        |         |           |Overtime      |
+|       |                      |                 |            |        |         |           |exceeding     | 
+|       |                      |                 |            |        |         |           |1 hour=P350   |
+-------------------------------------------------------------------------------------------------------------
+| 1001  | Jose Rizal A         | Manager         |     IT     |  520   | 99,840  |  4,500    |              |
+| 1002  | Andres Bonifacio C   | Asst. Manager   |     IT     |  450   | 86,400  |  2,500    |              |
+| 1003  | Lexi Lore S          | Secretary       |     IT     |  350   | 67,200  |  1,500    |              |
+| 1004  | Ivana Alawi S        | Asst. Secretary |     IT     |  300   | 57,600  |  1,000    |              |
+-------------------------------------------------------------------------------------------------------------
+Enter Employee's Data 
+
+Employee Number   : 1003
+Name              : Lexi Lore S
+Position          : Secretary
+Department        : IT
+Status            : Married
+Monthly Salary    : P67200.0
+Allowances        : P1500.0
+Overtime          : 10
+OvertimePay       : P3500.0
+TOTAL INCOME      : P72200.0
+------------------------------------------------------
+                    T  I   M   E                   
+------------------------------------------------------
+Number of Hours Works   : 192.0
+Late(Hours)             : 8
+Late(Minutes)           : 15
+Absences                : 1
+Undertime               : 1
+Total Hours             : 172.0
+Rate                    : P350.0
+OVERALL INCOME          : P63950.0
+------------------------------------------------------
+                 D E D U C T I O N S                   
+------------------------------------------------------
+Specify Tax Bracket 
+(1)Single (2)Married (3)Widowed
+
+Enter your choice: 2
+
+TAX              : P6395.0
+SSS              : P1918.5
+PAGIBIG          : P639.5
+PhilHealth       : P639.5
+
+DEDUCTIONS       : P9592.5
+
+-------------------------------------------------
+                  Payroll Slip
+-------------------------------------------------
+
+    Name                 : Lexi Lore S
+    Position             : Secretary
+    Department           : IT
+    Status               : Married
+    Monthly Salary       : P67200.0
+    Allowances           : P1500.0
+    Overtime             : P3500.0
+    Total Income         : P72200.0
+
+----------------------Time-----------------------
+
+    Number of Hours Works: 192.0
+    Late(hr)             : P1200.0
+    Late(min)            : P50.0
+    Absences             : 8.0
+    Undertime            : 4
+    Total Hours          : 172.0
+    Rate                 : P350.0
+    Overall Income       : P63950.0
+
+-------------------Deductions--------------------
+
+    TAX                  : P6395.0
+    SSS                  : P1918.5
+    Pagibig              : P639.5
+    PhilHealth           : P639.5
+    Total Deductions     : P9592.5
+
+---------------------Others----------------------
+
+    House Loan           : P1000
+    Car Loan             : P1000
+    Total Loan           : P2000.0
+
+-------------------------------------------------
+
+  TOTAL GROSS PAY        : P62607.5
+
+  TOTAL NET PAY          : P60607.5
+
+ Do You want to Select Again[Y/N]: Y
+
+
+-------------------------------------------------------------------------------------------------------------
+                                         TAGUIG CITY Payroll System 101
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+|Emplyee|    Employee Name     |    Position     | Department | rate   | Monthly | Allowances| Official     |
+|Number |                      |                 |            | /hour  | Salary  |           | time= 8hours |
+|       |                      |                 |            |        |         |           |Overtime      |
+|       |                      |                 |            |        |         |           |exceeding     | 
+|       |                      |                 |            |        |         |           |1 hour=P350   |
+-------------------------------------------------------------------------------------------------------------
+| 1001  | Jose Rizal A         | Manager         |     IT     |  520   | 99,840  |  4,500    |              |
+| 1002  | Andres Bonifacio C   | Asst. Manager   |     IT     |  450   | 86,400  |  2,500    |              |
+| 1003  | Lexi Lore S          | Secretary       |     IT     |  350   | 67,200  |  1,500    |              |
+| 1004  | Ivana Alawi S        | Asst. Secretary |     IT     |  300   | 57,600  |  1,000    |              |
+-------------------------------------------------------------------------------------------------------------
+Enter Employee's Data 
+
+Employee Number   : 1004
+Name              : Ivana Alawi S
+Position          : Assistant Secretary
+Department        : IT
+Status            : Widowed
+Monthly Salary    : P57600.0
+Allowances        : P1000.0
+Overtime          : 1
+OvertimePay       : P350.0
+TOTAL INCOME      : P58950.0
+------------------------------------------------------
+                    T  I   M   E                   
+------------------------------------------------------
+Number of Hours Works   : 192.0
+Late(Hours)             : 7
+Late(Minutes)           : 50
+Absences                : 5
+Undertime               : 5
+Total Hours             : 125.0
+Rate                    : P300.0
+OVERALL INCOME          : P37750.0
+------------------------------------------------------
+                 D E D U C T I O N S                   
+------------------------------------------------------
+Specify Tax Bracket 
+(1)Single (2)Married (3)Widowed
+
+Enter your choice: 3
+
+TAX              : P3020.0
+SSS              : P755.0
+PAGIBIG          : P377.5
+PhilHealth       : P377.5
+
+DEDUCTIONS       : P4530.0
+
+-------------------------------------------------
+                  Payroll Slip
+-------------------------------------------------
+
+    Name                 : Ivana Alawi S
+    Position             : Assistant Secretary
+    Department           : IT
+    Status               : Widowed
+    Monthly Salary       : P57600.0
+    Allowances           : P1000.0
+    Overtime             : P350.0
+    Total Income         : P58950.0
+
+----------------------Time-----------------------
+
+    Number of Hours Works: 192.0
+    Late(hr)             : P1050.0
+    Late(min)            : P50.0
+    Absences             : 40.0
+    Undertime            : 20
+    Total Hours          : 125.0
+    Rate                 : P300.0
+    Overall Income       : P37750.0
+
+-------------------Deductions--------------------
+
+    TAX                  : P3020.0
+    SSS                  : P755.0
+    Pagibig              : P377.5
+    PhilHealth           : P377.5
+    Total Deductions     : P4530.0
+
+---------------------Others----------------------
+
+    House Loan           : P6000
+    Car Loan             : P6000
+    Total Loan           : P12000.0
+
+-------------------------------------------------
+
+  TOTAL GROSS PAY        : P54420.0
+
+  TOTAL NET PAY          : P42420.0
+
+ Do You want to Select Again[Y/N]: Y
+
+
+-------------------------------------------------------------------------------------------------------------
+                                         TAGUIG CITY Payroll System 101
+-------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
+|Emplyee|    Employee Name     |    Position     | Department | rate   | Monthly | Allowances| Official     |
+|Number |                      |                 |            | /hour  | Salary  |           | time= 8hours |
+|       |                      |                 |            |        |         |           |Overtime      |
+|       |                      |                 |            |        |         |           |exceeding     | 
+|       |                      |                 |            |        |         |           |1 hour=P350   |
+-------------------------------------------------------------------------------------------------------------
+| 1001  | Jose Rizal A         | Manager         |     IT     |  520   | 99,840  |  4,500    |              |
+| 1002  | Andres Bonifacio C   | Asst. Manager   |     IT     |  450   | 86,400  |  2,500    |              |
+| 1003  | Lexi Lore S          | Secretary       |     IT     |  350   | 67,200  |  1,500    |              |
+| 1004  | Ivana Alawi S        | Asst. Secretary |     IT     |  300   | 57,600  |  1,000    |              |
+-------------------------------------------------------------------------------------------------------------
+Enter Employee's Data 
+
+Employee Number   : 1005
+		   You Input Invalid Number...
+		   The Valid Numbers are 1001, 1002, 1003, and 1004 Only!
+
+ Do You want to Select Again[Y/N]: N
+BUILD SUCCESSFUL (total time: 6 minutes 45 seconds)
